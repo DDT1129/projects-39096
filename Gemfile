@@ -60,3 +60,6 @@ gem 'image_processing', '~> 1.2'
 
 gem 'pry-rails'
 
+group :production do
+  gem 'pg'
+end
